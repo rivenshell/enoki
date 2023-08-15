@@ -7,7 +7,7 @@ function Navbar() {
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://flowbite.com/" class="flex items-center">
             <img
-              src="src/assets/enoki1.svg"
+              src="/public/enoki1.svg"
               class="h-8 mr-3"
               alt="Flowbite Logo"
             />
