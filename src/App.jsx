@@ -7,6 +7,7 @@ export default function MyPage() {
     <>
       <Navbar />
       <Hero />
+      <script>console.log("ok so i have an idea")</script>
     </>
   )
 }
