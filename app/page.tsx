@@ -1,5 +1,10 @@
-import Image from "next/image"
+import React from "react"
+import Sidebar from "./components/Sidebar"
 
 export default function Home() {
-  return <></>
+  return (
+    <>
+      <Sidebar />
+    </>
+  )
 }
