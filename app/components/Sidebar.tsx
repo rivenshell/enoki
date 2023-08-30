@@ -33,7 +33,7 @@ export default function LogoBranding() {
           <Sidebar.Item href="#" icon={HiOutlineSparkles}>
             <p>sami space</p>
           </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiOutlineCode}>
+          <Sidebar.Item href="/codespace" icon={HiOutlineCode}>
             <p>code space</p>
           </Sidebar.Item>
           <Sidebar.Item href="#" icon={HiArrowSmRight}>
