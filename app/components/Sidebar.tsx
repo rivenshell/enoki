@@ -15,7 +15,7 @@ export default function LogoBranding() {
   return (
     <Sidebar aria-label="Sidebar with logo branding example">
       <Sidebar.Logo
-        href="#"
+        href="/"
         img="enoki.png"
         imgAlt="Flowbite logo"
       ></Sidebar.Logo>
