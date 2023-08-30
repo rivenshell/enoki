@@ -7,8 +7,8 @@ import {
   HiInbox,
   HiOutlineCode,
   HiTable,
-  HiUser,
-  HiViewBoards,
+  HiOutlineSparkles,
+  HiDocumentDuplicate,
 } from "react-icons/hi"
 
 export default function LogoBranding() {
@@ -21,16 +21,16 @@ export default function LogoBranding() {
       ></Sidebar.Logo>
       <Sidebar.Items>
         <Sidebar.ItemGroup>
-          <Sidebar.Item href="#" icon={HiChartPie}>
+          <Sidebar.Item href="/" icon={HiChartPie}>
             <p>Dashboard</p>
           </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiViewBoards}>
+          <Sidebar.Item href="/notes" icon={HiDocumentDuplicate}>
             <p>Notes</p>
           </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiInbox}>
+          <Sidebar.Item href="/reflection" icon={HiInbox}>
             <p>Reflection</p>
           </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiUser}>
+          <Sidebar.Item href="#" icon={HiOutlineSparkles}>
             <p>sami space</p>
           </Sidebar.Item>
           <Sidebar.Item href="#" icon={HiOutlineCode}>

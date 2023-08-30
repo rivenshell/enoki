@@ -1,7 +1,5 @@
 import React from "react"
 
-function page() {
-  return <div>page</div>
+export default function codespace() {
+  return <>rivs codespace</>
 }
-
-export default page
