@@ -9,7 +9,6 @@ export default function samispace() {
     <>
       <Flowbite>
         <Sidebar />
-        <DarkThemeToggle />
         <div className="text-center">
           I crafted this space 🖥️ <br />i guess that makes me a god 🪴
           <Blog />

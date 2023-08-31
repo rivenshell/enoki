@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <>
       <Flowbite>
-        <DarkThemeToggle />
         <Sidebar />
         <br />
         <div className="">
