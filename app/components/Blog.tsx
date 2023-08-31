@@ -1,3 +1,4 @@
+"use client"
 const posts = [
   {
     id: 1,
