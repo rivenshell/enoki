@@ -13,7 +13,7 @@ import {
 } from "react-icons/hi"
 
 import { Collapse } from "flowbite"
-// import type { CollapseOptions, CollapseInterface } from "flowbite"
+import type { CollapseOptions, CollapseInterface } from "flowbite"
 
 // // target element to be collapsed
 // const $sidenav = document.getElementById("sidenav")
@@ -39,7 +39,7 @@ export default function sidenav() {
       <Sidebar
         collapsed={!true} // collapse sidebar on smaller screens
         aria-label="Sidebar with logo branding example"
-        className="sticky top-0"
+        className="sticky top-0 sidebar "
         id="sidenav"
       >
         <Sidebar.Logo
@@ -50,10 +50,10 @@ export default function sidenav() {
         <button
           data-collapse-toggle="navbar-hamburger"
           type="button"
-          className="inline-flex items-center justify-center p-2 w-10 h-10 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="sidebar sidebar-collapse-on-click inline-flex items-center justify-center p-2 w-10 h-10 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 "
           aria-controls="navbar-hamburger"
           aria-expanded="false"
-          id="sidebar-trigger"
+          id="sidebarTrigger"
         >
           <span className="sr-only">Open main menu</span>
           <svg
