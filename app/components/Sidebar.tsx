@@ -39,7 +39,7 @@ export default function sidenav() {
       <Sidebar
         collapsed={!true} // collapse sidebar on smaller screens
         aria-label="Sidebar with logo branding example"
-        className="sticky top-0 sidebar "
+        className="sticky top-0 sidebar  x-0 z-50 h-screen overflow-y-auto bg-white dark:bg-gray-800 dark:text-gray-400"
         id="sidenav"
       >
         <Sidebar.Logo

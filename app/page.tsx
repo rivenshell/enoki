@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <Flowbite>
       <Sidebar />
-      <br />
       <div className="dark:bg-slate-800">
         <Blog />
         <div className="text-center sticky">
