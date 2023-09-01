@@ -12,18 +12,66 @@ import {
   HiDocumentDuplicate,
 } from "react-icons/hi"
 
-export default function LogoBranding() {
+import { Collapse } from "flowbite"
+// import type { CollapseOptions, CollapseInterface } from "flowbite"
+
+// // target element to be collapsed
+// const $sidenav = document.getElementById("sidenav")
+
+// // trigger
+// const $trigger = document.getElementById("sidebar-trigger")
+
+// const options: CollapseOptions = {
+//   onCollapse: () => {
+//     console.log("element has been collapsed")
+//   },
+//   onExpand: () => {
+//     console.log("element has been expanded")
+//   },
+//   onToggle: () => {
+//     console.log("element has been toggled")
+//   },
+// }
+
+export default function sidenav() {
   return (
     <Flowbite>
       <Sidebar
+        collapsed={!true} // collapse sidebar on smaller screens
         aria-label="Sidebar with logo branding example"
         className="sticky top-0"
+        id="sidenav"
       >
         <Sidebar.Logo
           href="/"
           img="enoki.svg"
           imgAlt="Flowbite logo"
         ></Sidebar.Logo>
+        <button
+          data-collapse-toggle="navbar-hamburger"
+          type="button"
+          className="inline-flex items-center justify-center p-2 w-10 h-10 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-hamburger"
+          aria-expanded="false"
+          id="sidebar-trigger"
+        >
+          <span className="sr-only">Open main menu</span>
+          <svg
+            className="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
         <DarkThemeToggle />
         <Sidebar.Items>
           <Sidebar.ItemGroup>
@@ -79,3 +127,8 @@ export default function LogoBranding() {
     </Flowbite>
   )
 }
+
+// const collapse: CollapseInterface = new Collapse($sidenav, $trigger, options)
+
+// // show the target element
+// collapse.expand()
