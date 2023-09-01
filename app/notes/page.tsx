@@ -6,8 +6,8 @@ export default function notes() {
     <>
       <Sidebar />
       <div>
-        <p className="px-20">notes</p>
-        <h1 className="px-20 text-center">
+        <p className="px-20 ">notes</p>
+        <h1 className="px-20 text-center absolute inset-5">
           Under Construction 😡
           <br /> lub u 💕
         </h1>
