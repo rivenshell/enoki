@@ -15,7 +15,10 @@ import {
 export default function LogoBranding() {
   return (
     <Flowbite>
-      <Sidebar aria-label="Sidebar with logo branding example">
+      <Sidebar
+        aria-label="Sidebar with logo branding example"
+        className="sticky top-0"
+      >
         <Sidebar.Logo
           href="/"
           img="enoki.svg"
