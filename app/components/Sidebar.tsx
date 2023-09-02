@@ -42,7 +42,7 @@ export default function sidenav() {
   return (
     <Flowbite>
       <Sidebar
-        collapsed={true} // collapse sidebar on smaller screens
+        collapsed={!true} // collapse sidebar on smaller screens
         aria-label="Sidebar with logo branding example"
         className="sticky top-0 sidebar flex x-0 z-50 h-screen overflow-y-auto bg-white dark:bg-gray-800 dark:text-gray-400"
         id="sidenav"
