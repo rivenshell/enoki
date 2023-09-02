@@ -14,6 +14,7 @@ import {
 
 import { Collapse } from "flowbite"
 import type { CollapseOptions, CollapseInterface } from "flowbite"
+import { SidebarCollapse } from "flowbite-react/lib/esm/components/Sidebar/SidebarCollapse"
 
 // // target element to be collapsed
 // const $sidenav = document.getElementById("sidenav")
@@ -32,6 +33,10 @@ import type { CollapseOptions, CollapseInterface } from "flowbite"
 //     console.log("element has been toggled")
 //   },
 // }
+const handleClick = (event: MouseEvent) => {
+  console.log("clicked")
+  console.log(event)
+}
 
 export default function sidenav() {
   return (
@@ -50,10 +55,11 @@ export default function sidenav() {
         <button
           data-collapse-toggle="navbar-hamburger"
           type="button"
-          className="sidebar sidebar-collapse-on-click inline-flex items-center justify-center p-2 w-10 h-10 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 "
+          className="sidebar inline-flex items-center justify-center p-2 w-10 h-10 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 "
           aria-controls="navbar-hamburger"
           aria-expanded="false"
           id="sidebarTrigger"
+          onClick={handleClick}
         >
           <span className="sr-only">Open main menu</span>
           <svg
