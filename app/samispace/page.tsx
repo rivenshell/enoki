@@ -10,7 +10,7 @@ export default function samispace() {
       <Flowbite>
         <Sidebar />
         <div className="text-center flex-wrap">
-          I crafted this space 🖥️ <br />i guess that makes me a god .🪴
+          I crafted this space 🖥️ <br />i guess that makes me a god🪴
           <Blog />
         </div>
       </Flowbite>
