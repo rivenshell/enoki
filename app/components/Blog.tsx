@@ -24,7 +24,7 @@ const posts = [
 export default function Example() {
   return (
     <Flowbite>
-      <div className=" items-center absolute inset-5">
+      <div className=" items-center absolute inset-5 position z-2 flex flex-auto">
         <div className="bg-white dark:bg-slate-800 py-24 sm:py-32">
           <div className="mx-auto max-w-3xl px-6 lg:px-8 ">
             <div className="mx-auto max-w-4xl lg:mx-0 ">
