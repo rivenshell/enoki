@@ -59,7 +59,7 @@ export default function sidenav() {
           aria-controls="navbar-hamburger"
           aria-expanded="false"
           id="sidebarTrigger"
-          onClick={handleClick}
+          // onClick={handleClick}
         >
           <span className="sr-only">Open main menu</span>
           <svg
