@@ -9,7 +9,7 @@ export default function samispace() {
     <>
       <Flowbite>
         <Sidebar />
-        <div className="text-center flex-wrap">
+        <div className="h-screen text-center flex-wrap dark:bg-gray-800">
           I crafted this space 🖥️ <br />i guess that makes me a god🪴
           <Blog />
         </div>

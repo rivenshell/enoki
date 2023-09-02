@@ -11,15 +11,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-      gridTemplateColumns: {
-        sidebar: "300px auto", // sidebar layout
-        "sidebar-collapse": "60px auto", // collapsed sidebar layout
-      },
       screens: {
         sm: "640px",
         // => @media (min-width: 640px) { ... }
