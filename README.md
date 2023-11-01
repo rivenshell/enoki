@@ -1,7 +1,8 @@
-```
-    Lighnting fast approach to task managment 🚀
 
-```
+
+# Lighnting fast approach to task managment 🚀
+
+
 
 
 ## Getting Started
